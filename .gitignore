@@ -7,6 +7,8 @@ __pycache__/
 .mypy_cache/
 .runtime-home/
 *.egg-info/
+logs/
+pids/
 node_modules/
 .next/
 dist/
