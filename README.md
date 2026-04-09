@@ -84,6 +84,12 @@ Copy [`.env.server.example`](/Users/hai.lam/Documents/Learning/crewai/.env.serve
 
 For a `48 GB VRAM` server, the default role mapping in `.env` is a safe starting point.
 
+When editing `.env`, any value with spaces must be quoted, for example:
+
+```bash
+BOOT_PRODUCT_REQUEST="Build an internal leave management dashboard"
+```
+
 ### 2. Bootstrap once
 
 ```bash
