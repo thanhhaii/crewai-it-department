@@ -1,0 +1,31 @@
+ba_analysis:
+  description: >
+    Create a business analysis package for the product request with Product Objective,
+    Scope, Out of Scope, Assumptions, User Stories, Acceptance Criteria,
+    Priority Order, and Open Questions and Risks.
+  expected_output: A structured Markdown business artifact.
+
+backend_solution_design:
+  description: >
+    Create a backend design package with API contract, entities,
+    service boundaries, validation rules, non-functional considerations,
+    and rollout notes.
+  expected_output: A structured Markdown backend solution design.
+
+frontend_solution_design:
+  description: >
+    Create frontend implementation guidance for a Next.js App Router application
+    with route structure, component plan, state dependencies, and production delivery notes.
+  expected_output: A structured Markdown frontend implementation package.
+
+qc_test_plan:
+  description: >
+    Create a QC package covering smoke tests, regression checks,
+    acceptance mapping, and release risks based on the generated outputs.
+  expected_output: A structured Markdown QC plan.
+
+pm_final_delivery:
+  description: >
+    Summarize the run as PM with executive delivery summary,
+    sequencing, dependencies, and recommended next actions.
+  expected_output: A concise Markdown PM delivery summary.

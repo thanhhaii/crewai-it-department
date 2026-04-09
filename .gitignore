@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.local
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.runtime-home/
+*.egg-info/
+node_modules/
+.next/
+dist/
+build/
+coverage/
+shared/outputs/*.md
+shared/outputs/*.json
+shared/run_state/*.json
